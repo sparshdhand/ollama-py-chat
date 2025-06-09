@@ -8,7 +8,7 @@ Getting Started
 
 1. Clone the Project
 
-Clone the project using the code below, or download this release:git clone <repository_url>
+Clone the project using the code below, or download this release:git clone https://github.com/sparshdhand/ollama-py-chat
 
 2. Create and Activate a Virtual Environment
 
