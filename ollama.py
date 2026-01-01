@@ -27,7 +27,7 @@ def chat_with_model(model_name):
             response = requests.post(f"{OLLAMA_API_URL}/api/generate", json=payload)
             response.raise_for_status()
             data = response.json()
-            print("responce:", data.get("response", "").strip())
+            print("Response:", data.get("response", "").strip())
         except KeyboardInterrupt:
             print("\nExiting chat.")
             break
